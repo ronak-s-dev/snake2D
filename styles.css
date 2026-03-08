@@ -1,0 +1,46 @@
+:root{
+    --grass-color: #63A361;
+    --boulder-color: #5B532C;
+    --snake-color: #FDE7B3;
+    --food-color: #FFC50F;
+}
+.background{
+    background-color: var(--grass-color);
+    table-layout: fixed;
+    border-spacing: 0;
+}
+
+.background td{
+    padding: 0;
+}
+
+.boulder{
+    background-color: var(--boulder-color);
+}
+
+.actor{
+    position: absolute;
+}
+
+.snake{
+    background-color: var(--snake-color);
+}
+
+.food{
+    background-color: var(--food-color);
+}
+
+.game{
+    overflow: hidden;
+    max-height: 450px;
+    max-width: 600px;
+    position: relative;
+}
+
+.lost .snake{
+    background: rgb(160, 64, 64);
+}
+
+.won .snake{
+    box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
