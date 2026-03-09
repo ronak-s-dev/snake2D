@@ -20,6 +20,7 @@
 
 .actor{
     position: absolute;
+    z-index: 1;
 }
 
 .snake{
@@ -31,7 +32,7 @@
 }
 
 .game{
-    overflow: hidden;
+    overflow: auto;
     max-height: 450px;
     max-width: 600px;
     position: relative;
